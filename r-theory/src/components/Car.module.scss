@@ -1,0 +1,17 @@
+.car {
+  background-color: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 0 1px rgba(16, 22, 26, .15), 0 0 0 rgba(16, 22, 26, 0), 0 0 0 rgba(16, 22, 26, 0);
+  box-shadow: 0 0 0 1px rgba(16, 22, 26, .15), 0 0 0 rgba(16, 22, 26, 0), 0 0 0 rgba(16, 22, 26, 0);
+  padding: 20px;
+  -webkit-transition: -webkit-transform .2s cubic-bezier(.4, 1, .75, .9), -webkit-box-shadow .2s cubic-bezier(.4, 1, .75, .9);
+  max-width: 48rem;
+  margin: 0 auto 4rem;
+  transition-property: box-shadow;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.23s;
+}
+
+.car:hover {
+  background-color: #f2f2f2;
+}

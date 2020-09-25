@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Car from './components/Car'
-import './App.css'
+import './App.scss'
 
 class App extends Component {
   state = {
