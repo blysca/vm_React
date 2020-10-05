@@ -1,0 +1,12 @@
+.MenuToggle {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;
+  cursor: pointer;
+  z-index: 7;
+  transition: left ease-in-out .23s ;
+} 
+
+.MenuToggle.open {
+  left: 12rem;
+}

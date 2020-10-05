@@ -1,0 +1,10 @@
+.AnswerItem {}
+
+.AnswerItem.error {
+  background-color: #EC407A;
+  color: #fff;
+}
+.AnswerItem.success {
+  background-color: #4DB6AC;
+  color: #fff;
+}

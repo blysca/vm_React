@@ -1,0 +1,27 @@
+.Drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  max-width: 12rem;
+  width: 100%;
+  background: #fff;
+  padding: 2rem 1rem;
+  overflow: auto;
+  z-index: 7;
+  transform: translateX(0);
+  transition: transform .25s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+.Drawer.close {
+  transform: translateX(-100%);
+}
+
+.Drawer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.active{
+  opacity: .7;
+}
